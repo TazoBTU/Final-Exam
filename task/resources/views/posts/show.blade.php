@@ -123,8 +123,7 @@
                                 <div class="col-auto d-none d-lg-flex mr-auto">
                                     <a class="oh-logo" href="/">
                                       
-                                        <img class="of-logo"
-                                        src="/logo-popsport-new.svg" alt="popsport">
+                                       TAZO SPORTS
                                     </a>
                                    
                                 </div>
