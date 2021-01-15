@@ -24,6 +24,7 @@ Route::get('/', 'PostsController@index')->name('adminindex');
 //     return view('posts.admin');
 // })->middleware(['auth','auth.admin']);
 
+
 Route::get('/admin/create', 'PostsController@create')->name('admincreate')->middleware(['auth','auth.admin']);
 Route::post('/admin/store', 'PostsController@store')->name('adminstore');
 Route::get('/admin/show/{id}','PostsController@show')->name('adminshow');
